@@ -69,7 +69,7 @@ fun FormScreen(
     onOptionSelected: (String) -> Unit
 ) {
     val context = LocalContext.current
-    var email by remember { mutableStateOf(TextFieldValue("gatogalleta777@gmail.com, kryzglz02@gmail.com")) }
+    var email by remember { mutableStateOf(TextFieldValue("guadalupe.rodriguez@ferromex.mx, osvaldo.castro@ferromex.mx")) }
     var comentario by remember { mutableStateOf(TextFieldValue()) }
     var observaciones by remember { mutableStateOf(TextFieldValue()) }
     var distrito by remember { mutableStateOf(TextFieldValue()) }
